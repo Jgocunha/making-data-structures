@@ -6,7 +6,7 @@ project (dynamic-neural-field-composer
 
 add_library(data-structures
 	"src/array.cpp"
-)
+ "src/vector.cpp")
 	
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET data-structures PROPERTY CXX_STANDARD 20)

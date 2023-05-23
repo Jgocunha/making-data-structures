@@ -4,5 +4,6 @@
 
 int main()
 {
-	arrayMain();
+	//arrayMain();
+	vectorMain();
 }
